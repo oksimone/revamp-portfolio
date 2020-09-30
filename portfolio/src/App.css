@@ -1,0 +1,30 @@
+.parallax {
+  /* The image used */
+  background: url("https://images.pexels.com/photos/1030913/pexels-photo-1030913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+  /* Full height */
+  height: 100vh;
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+height:500px;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.5;
+}
+
+h1 {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
