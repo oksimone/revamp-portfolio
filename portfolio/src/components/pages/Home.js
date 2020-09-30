@@ -1,10 +1,12 @@
 import React from "react";
 import TypeIt from './TypeIt'
+import {Container} from 'react-bootstrap'
 
 function Home() {
   return (
+    // not sure if i need the container 
+     <Container>
     <div>
-     
       <div className="parallax">
       <TypeIt/>
       </div>
@@ -19,6 +21,7 @@ function Home() {
 		<div class="parallax"></div>
      
     </div>
+    </Container>
   );
 }
 

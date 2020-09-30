@@ -5,8 +5,8 @@ const styles = {
   color: 'black',
   fontWeight: 'bold',
   position: 'relative',
-  left: '30%',
-  bottom: '50%'
+  left: '21%',
+  top:'170px'
   
 }
 export default () => {
