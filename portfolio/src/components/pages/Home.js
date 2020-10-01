@@ -10,6 +10,11 @@ function Home() {
       <div className="parallax">
       <TypeIt/>
       </div>
+
+      {/* <div class="arrow bounce">
+  <a class="fa fa-arrow-down fa-2x" href="#"></a>
+</div> */}
+
       <div class="overlay">
         <h1>About me</h1>
       </div>

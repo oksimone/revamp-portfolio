@@ -3,10 +3,11 @@ import TypeIt from "typeit-react";
 
 const styles = {
   color: 'black',
+  fontSize: '22px',
   fontWeight: 'bold',
   position: 'relative',
-  left: '21%',
-  top:'170px'
+  left: '8%',
+  top:'110px'
   
 }
 export default () => {

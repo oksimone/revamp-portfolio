@@ -1,0 +1,10 @@
+#text{
+  font-size: 18px;
+}
+#text:hover{
+  border: 1px solid #C57ED3;
+ 
+}
+.link{
+  border: 1px solid #C57ED3;
+}

@@ -1,6 +1,10 @@
+body{
+  color:#C57ED3;
+}
+
 .parallax {
   /* The image used */
-  background: url("https://images.pexels.com/photos/2742725/pexels-photo-2742725.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background: url("https://images.pexels.com/photos/2432185/pexels-photo-2432185.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 
   /* Full height */
   height: 100vh;
@@ -10,7 +14,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 70% 70%;
+  background-size: 70% 90%;
 }
 
 .overlay {
@@ -26,5 +30,5 @@ h1 {
 
 body {
   margin: 0px;
-  font-family: 'Lato', lato;
+  font-family: 'Roboto Slab', serif;
 }
