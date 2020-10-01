@@ -6,12 +6,14 @@ import {Container} from 'react-bootstrap'
 
 
 
+
 function App() {
   return (
     <div className="App">
  <NavBar/>
  <Container>
       <Home/>
+     
       </Container>
     </div>
   );

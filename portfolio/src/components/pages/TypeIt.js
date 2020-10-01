@@ -3,11 +3,16 @@ import TypeIt from "typeit-react";
 
 const styles = {
   color: 'black',
+  fontFamily: 'Roboto Slab serif',
   fontSize: '22px',
-  fontWeight: 'bold',
-  position: 'relative',
-  left: '8%',
-  top:'110px'
+  display: 'flex',
+  justifyContent: 'center',
+  top: '40px',
+
+  // fontWeight: 'bold',
+  // position: 'relative',
+  // left: '29%',
+  // top:'110px'
   
 }
 export default () => {
