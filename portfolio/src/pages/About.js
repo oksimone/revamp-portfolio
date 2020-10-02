@@ -1,17 +1,18 @@
 import React from "react";
-import { Row, Container, Col } from "react-bootstrap";
-import self from '../assets/Self.JPG'
+import { Row, Container, Col, Jumbotron } from "react-bootstrap";
+import self from '../assets/self.JPG'
 
 
 
 function About() {
   return (
+    
     <Container>
     <Row>
-    <Col>
+    <Col >
       <img src={self} width = "150px" height = "250px" alt="Picture of Kristian" />
 </Col>
-<Col>
+<Col >
       <p>
         Hi there! Welcome to my portfolio! My name is Kristian Worthy, and I'm
         enrolled in UNC Charlotte's Full Stack Web Development Bootcamp to

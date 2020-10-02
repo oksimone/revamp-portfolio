@@ -3,14 +3,19 @@ import TypeIt from "../components/TypeIt";
 import { Container } from "react-bootstrap";
 import About from "./About";
 import Project from "./Project"
+import Header from "../components/Header"
 
+const styles ={
+  marginTop: "60%"
+}
 function Home() {
   return (
     // not sure if i need the container
     <Container>
       <div>
         <div className="parallax">
-          <TypeIt />
+        <Header/>
+          {/* <TypeIt /> */}
         </div>
 
         <div class="overlay">
@@ -24,9 +29,13 @@ function Home() {
         </div>
         <div class="parallax"></div>
         <div class="overlay">
-          <h2 id="work">Socials</h2>
-          
+          <h2 id="social">Socials</h2>
         </div>
+        <div class="parallax"></div>
+        <div class="overlay">
+          <h2 id="contact">Contact</h2>
+        </div>
+        <div class="parallax"></div>
       </div>
     </Container>
   );
