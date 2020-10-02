@@ -1,5 +1,5 @@
 import React from "react";
-import TypeIt from "./TypeIt";
+import TypeIt from "../components/TypeIt";
 import { Container } from "react-bootstrap";
 import About from "./About";
 import Project from "./Project"
