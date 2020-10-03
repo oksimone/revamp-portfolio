@@ -4,6 +4,8 @@ import { Container } from "react-bootstrap";
 import About from "./About";
 import Project from "./Project"
 import Header from "../components/Header"
+import Social from '../pages/Social'
+import Contact from '../pages/Contact'
 
 const styles ={
   marginTop: "60%"
@@ -30,10 +32,12 @@ function Home() {
         <div class="parallax"></div>
         <div class="overlay">
           <h2 id="social">Socials</h2>
+          <Social/>
         </div>
         <div class="parallax"></div>
         <div class="overlay">
           <h2 id="contact">Contact</h2>
+          <Contact/>
         </div>
         <div class="parallax"></div>
       </div>
