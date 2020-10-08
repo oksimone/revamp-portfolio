@@ -6,6 +6,8 @@ import BrowserRouter from './components/Nav/Nav';
 import About from './components/About/About';
 import Middle from './components/MiddleMan/Middle';
 import Projects from './components/Projects/Projects'
+import Middle2 from './components/MiddleMan2/Middle2'
+import Socials from './components/Socials/Socials'
 
 
 
@@ -21,6 +23,8 @@ function App() {
 
     <Projects/>
     </MDBContainer>
+    <Middle2/>
+    <Socials/>
    
     
 

@@ -8,7 +8,7 @@ function Middle (){
 <MDBContainer className = "container">
     <MDBRow>
         <MDBCol>
-        <p style = {{alignSelf:"center", border:"1px solid black", fontSize:'35px', fontWeight:"bold", color:"white", marginTop:"180px"}}>
+        <p style = {{alignSelf:"center", border:"1px solid black", fontSize:'35px', fontWeight:"bold", color:"white", marginTop:"300px"}}>
         PROJECTS
       </p>
         </MDBCol>
