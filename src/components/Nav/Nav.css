@@ -1,0 +1,15 @@
+.navStyle{
+    display:flex;
+    width:20%;
+    height:auto;
+    font-weight: bold;
+    font-size: 15px;
+
+    
+}
+
+
+
+.hoverbtn:hover{
+    border:1px solid black;
+}

@@ -1,0 +1,14 @@
+.parallax {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    height: 400px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .container{
+      display:flex;
+      justify-content: center;
+  }

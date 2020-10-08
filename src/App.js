@@ -1,8 +1,11 @@
+import { MDBRow, MDBContainer } from 'mdbreact';
 import React from 'react';
 import './App.css';
-import Home from './pages/Home'
-import NavBar from './components/NavBar'
-import {Container} from 'react-bootstrap'
+import Background from './components/Background/Background';
+import BrowserRouter from './components/Nav/Nav';
+import About from './components/About/About';
+import Middle from './components/MiddleMan/Middle';
+import Projects from './components/Projects/Projects'
 
 
 
@@ -10,11 +13,20 @@ import {Container} from 'react-bootstrap'
 function App() {
   return (
     <div className="App">
- <NavBar/>
- <Container>
-      <Home/>
-     
-      </Container>
+    {/* <BrowserRouter/> */}
+    <Background/>
+    <About/>
+    <Middle/>
+    <MDBContainer style = {{display: "flex" ,justifyContent:"center"}}>
+
+    <Projects/>
+    </MDBContainer>
+   
+    
+
+ 
+
+    
     </div>
   );
 }
