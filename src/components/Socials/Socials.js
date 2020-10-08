@@ -14,7 +14,7 @@ return (
           <MDBCardText>
             Click on of the links below to get connected with my social media accounts. OR, click the email button to send me an email.
           </MDBCardText>
-          <MDBBtn href="#">Email me</MDBBtn>
+          <MDBBtn hrcomef="#">Email me</MDBBtn>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
