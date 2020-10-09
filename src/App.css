@@ -7,7 +7,7 @@ html {
 .parallax {
   background-image: url("https://images.pexels.com/photos/4100130/pexels-photo-4100130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")!important;
   /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); */
-  min-height: 730px;
+  min-height: 750px;
 
   background-position: center;
   background-repeat: no-repeat;
