@@ -25,7 +25,7 @@ function App() {
     <Projects/>
     </MDBContainer>
     <Middle2/>
-    <Socials/>
+    {/* <Socials/> */}
    
     
 
