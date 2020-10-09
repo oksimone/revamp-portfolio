@@ -17,6 +17,7 @@ function App() {
     <div className="App">
     {/* <BrowserRouter/> */}
     <Background/>
+
     <About/>
     <Middle/>
     <MDBContainer style = {{display: "flex" ,justifyContent:"center"}}>

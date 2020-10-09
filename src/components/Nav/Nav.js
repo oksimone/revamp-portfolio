@@ -11,14 +11,14 @@ export default () => (
         <MDBNavLink className = "hoverbtn" style ={{color: "black"}} active to="/">Home</MDBNavLink>
       </MDBNavItem>
       <MDBNavItem>
-        <MDBNavLink className = "hoverbtn"  style ={{color: "black"}} to="/about">About</MDBNavLink>
+        <MDBNavLink className = "hoverbtn" style ={{color: "black"}} to="/about">About</MDBNavLink>
       </MDBNavItem>
       <MDBNavItem>
-        <MDBNavLink className = "hoverbtn"  style ={{color: "black"}} to="/projects">Projects</MDBNavLink>
+        <MDBNavLink className = "hoverbtn" href= "#projects" style ={{color: "black"}} to="/projects">Projects</MDBNavLink>
       </MDBNavItem>
-      <MDBNavItem>
+      {/* <MDBNavItem>
         <MDBNavLink className = "hoverbtn"  style ={{color: "black"}} to="/socials">Socials</MDBNavLink>
-      </MDBNavItem>
+      </MDBNavItem> */}
       <MDBNavItem>
         <MDBNavLink className = "hoverbtn"  style ={{color: "black"}} to="/contact">Contact</MDBNavLink>
       </MDBNavItem>
