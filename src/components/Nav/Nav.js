@@ -1,29 +1,27 @@
 import React from "react";
-import { BrowserRouter } from 'react-router-dom';
-import { MDBNav, MDBNavItem, MDBNavLink } from "mdbreact";
-import '../Nav/Nav.css'
+import { Navbar, Nav, Container } from "react-bootstrap";
+import "../Nav/Nav.css";
+import ParticlesBg from "../ParticlesBg";
 
-export default () => (
-  <BrowserRouter>
-  <div className= "navStyle">
-    <MDBNav className="flex-column">
-      <MDBNavItem>
-        <MDBNavLink className = "hoverbtn" style ={{color: "black"}} active to="/">Home</MDBNavLink>
-      </MDBNavItem>
-      <MDBNavItem>
-        <MDBNavLink className = "hoverbtn" style ={{color: "black"}} to="/about">About</MDBNavLink>
-      </MDBNavItem>
-      <MDBNavItem>
-        <MDBNavLink className = "hoverbtn" href= "#projects" style ={{color: "black"}} to="/projects">Projects</MDBNavLink>
-      </MDBNavItem>
-      {/* <MDBNavItem>
-        <MDBNavLink className = "hoverbtn"  style ={{color: "black"}} to="/socials">Socials</MDBNavLink>
-      </MDBNavItem> */}
-      <MDBNavItem>
-        <MDBNavLink className = "hoverbtn"  style ={{color: "black"}} to="/contact">Contact</MDBNavLink>
-      </MDBNavItem>
-     
-    </MDBNav>
-</div>
-  </BrowserRouter>
-);
+function NavBar() {
+  return (
+      <>
+    <Container className="justify-content-center">
+      <Navbar bg="transparent" expand="lg">
+        <Navbar.Brand href="/">oksimone</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mb-auto">
+            <Nav.Link href="/about">about</Nav.Link>
+            <Nav.Link href="/projects">projects</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </Container>
+  
+
+    </>
+  );
+}
+
+export default NavBar;

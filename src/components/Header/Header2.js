@@ -1,16 +1,16 @@
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import "../Header/Header.css";
-import ParticlesBg from "../ParticlesBg";
+// import ParticlesBg from "../ParticlesBg";
 import NavBar from "../Nav/Nav";
-import Arrow from '../Arrow/Arrow'
+// import Arrow from '../Arrow/Arrow'
 
-const Header = () => {
+const Header2 = () => {
   return (
     <>
       <NavBar  />
       <br/>
-      <Container className="header">
+      <Container className="header" >
         <Row>
           <Col size = "sm">
             <p
@@ -22,7 +22,7 @@ const Header = () => {
                 color: "white",
               }}
             >
-              WELCOME TO KRISTIAN'S PORTFOLIO 
+              ABOUT KRISTIAN
               
 {/* <span>&#10230;</span> */}
 
@@ -36,4 +36,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;

@@ -1,39 +1,61 @@
-import { MDBRow, MDBContainer } from 'mdbreact';
-import React from 'react';
-import './App.css';
-import Background from './components/Background/Background';
-import BrowserRouter from './components/Nav/Nav';
-import About from './components/About/About';
-import Middle from './components/MiddleMan/Middle';
-import Projects from './components/Projects/Projects'
-import Middle2 from './components/MiddleMan2/Middle2'
-import Socials from './components/Socials/Socials'
+import React from "react";
 
+import "./App.css";
+// import { render } from "react-dom";
+import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
+import Home from './pages/Home/Home'
+// import { BrowserRouter as Router } from "react-router-dom";
+// import ParticlesBg from "./components/ParticlesBg";
+// import NavBar from "./components/Nav/Nav";
+// import { Container, Row, Col } from "react-bootstrap";
+// import Header from "./components/Header/Header";
+// import Particles from "react-particles-js";
+// import Arrow from "./components/Arrow/Arrow";
 
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects"
 
+// const style = {
+//   root: {
+//     textAlign: "center",
+//     // height:"100%",
+//     // background:"blue",
+//     justifyContent: "center",
+//     alignItems: "center",
+//   },
+// };
 
 function App() {
   return (
-    <div className="App">
-    {/* <BrowserRouter/> */}
-    <Background/>
+    <div>
+      <BrowserRouter>
+        <Switch>
+        <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
+      </BrowserRouter>
+            </div>
+);
+  }
 
-    <About/>
-    <Middle/>
-    <MDBContainer style = {{display: "flex" ,justifyContent:"center"}}>
+      {/* <Container fluid style={style}>
+        <Row>
+          <Col>
+            <Header />
 
-    <Projects/>
-    </MDBContainer>
-    <Middle2/>
-    {/* <Socials/> */}
-   
-    
+            <ParticlesBg />
+            {/* <h6>view next page</h6> */}
+          // </Col>
 
- 
+      //     <Col>
+      //       <Arrow style={{ justifyContent: "flex-start" }} />
+      //     </Col>
+      //   </Row>
+      // </Container> */}
+     
 
-    
-    </div>
-  );
-}
+
+// render(<App />, document.getElementById("root"));
 
 export default App;

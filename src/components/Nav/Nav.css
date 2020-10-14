@@ -1,15 +1,14 @@
-.navStyle{
-    display:flex;
-    width:20%;
-    height:auto;
-    font-weight: bold;
-    font-size: 15px;
-
-    
+.container {
+  display: flex;
+  margin-top: 20px;
+  
+  
 }
+.navbar {
+  
+  justify-content: center !important;
+  align-items: center !important;
 
-
-
-.hoverbtn:hover{
-    border:1px solid black;
+  height:10px;
+  
 }
