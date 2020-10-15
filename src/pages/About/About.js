@@ -20,7 +20,7 @@ function About() {
       </Container>
 
       <Container>
-      <Row style = {{marginTop: "12%", border: "1px solid black"}}>
+      <Row style = {{marginTop: "12%"}}>
           <Col md = {6}>
               <img src = {self} style = {{height: "330px", width: "220px" }} alt="portrait of kristian" />
           </Col>

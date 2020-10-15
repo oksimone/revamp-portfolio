@@ -18,6 +18,7 @@ const style = {
       textAlign: "center",
       // height:"100%",
       // background:"blue",
+      overflow:"hidden",
       justifyContent: "center",
       alignItems: "center",
     },
