@@ -20,10 +20,10 @@ function About() {
         </Row>
       </Container>
 
-      <Container>
+      <Container style = {{display:'flex', alignItems:"center", justifyContent:"center"}}>
         <Row style={{ marginTop: "12%" }}>
-          <Col sm={6} md = {6} style={{ paddingLeft: 0, paddingRight: 0, width:"auto" }}>
-            <img
+          <Col sm={6} md = {6} >
+            <img 
               src={self}
               style={{ height: "330px", width: "220px" }}
               alt="portrait of kristian"
