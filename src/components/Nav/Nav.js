@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Breadcrumbs, Link, Grid } from "@material-ui/core";
 import "../Nav/Nav.css";
-import logo from "../Nav/logo.png";
+import kswlogo from "../Nav/kswlogo.png";
 
 class Nav extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Nav extends Component {
     return (
       <div className="nav">
         <Grid container fixed justify="center" alignItems="center">
-          <img src={logo} style={{ height: "9%", width: "9%" }} />
+          <img src={kswlogo} style={{ height: "9%", width: "9%" }} />
           <Breadcrumbs aria-label="breadcrumb">
             <Link className="link" href="/" onClick={this.handleClick}>
               oksimone
