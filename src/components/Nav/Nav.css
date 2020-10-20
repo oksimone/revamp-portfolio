@@ -1,14 +1,24 @@
-.container {
-  display: flex;
-  margin-top: 20px;
-  
-  
-}
-.navbar {
-  
-  justify-content: center !important;
-  align-items: center !important;
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:ital,wght@1,100;1,200&display=swap");
 
-  height:10px;
-  
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+
+
+nav {
+  /* background-color: white; */
+  /* height: 50px; */
+  margin-bottom: 10px;
+  display: grid;
+}
+
+.link {
+  font-size: 20px;
+  color: black !important;
+  font-family: 'Antic Didone', serif;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-weight: bold; */
+  /* font-family: "Caveat", cursive;
+  font-family: "Josefin Sans", sans-serif; */
 }

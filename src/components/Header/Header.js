@@ -1,39 +1,16 @@
-import React from "react";
-import { Container, Row, Col, Nav } from "react-bootstrap";
-import "../Header/Header.css";
-import ParticlesBg from "../ParticlesBg";
-import NavBar from "../Nav/Nav";
-import Arrow from '../Arrow/Arrow'
+import React from 'react'
+import {Grid} from '@material-ui/core'
+import '../Header/Header.css'
 
-const Header = () => {
-  return (
-    <>
-      <NavBar  />
-      <br/>
-      <Container className="header">
-        <Row>
-          <Col size = "sm">
-            <p
-              style={{
-                alignSelf: "center",
-                border: "1px solid black",
-                fontSize: "35px",
-                fontWeight: "bold",
-                color: "white",
-              }}
-            >
-              WELCOME TO KRISTIAN'S PORTFOLIO 
-              
-{/* <span>&#10230;</span> */}
+function Header(){
+    return(
+        <Grid container className = "container">
+       
+        
+        <div className="me">welcome to kristians portfolio</div>
+  
+      </Grid>
+    )
+}
 
-            </p>
-          </Col>
-        </Row>
-      </Container>
-      {/* <ParticlesBg /> */}
-   
-    </>
-  );
-};
-
-export default Header;
+export default Header

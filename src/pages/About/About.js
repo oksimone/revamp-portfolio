@@ -1,78 +1,61 @@
 import React from "react";
-import "../About/About.css";
-import { Container, Row, Col } from "react-bootstrap";
-import Header from "../../components/Header/Header2";
-import self from "../About/self.JPG";
-import Arrow from "../../components/Arrow/Arrow";
-import ksw_webdevresume from "../About/ksw_webdevresume.pdf";
-import '../About/About.css'
+import Nav from "../../components/Nav/Nav";
+import "../About/About.css"
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
-// import Particles from '../../components/ParticlesBg'
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+}));
 
 function About() {
+    const classes = useStyles();
   return (
-    <>
-      <Container fluid>
-        <Row>
-          <Col lg={12}>
-            <Header />
-          </Col>
-        </Row>
-      </Container>
 
-      <Container style = {{display:'flex', alignItems:"center", justifyContent:"center"}}>
-        <Row style={{ marginTop: "12%" }}>
-          <Col sm={6} md = {6} >
-            <img 
-              src={self}
-              style={{ height: "330px", width: "220px" }}
-              alt="portrait of kristian"
-            />
-          </Col>
-          <Col sm={6} md = {6}>
-            <p style={{ color: "white" }}>
-              Hi there! Welcome to my portfolio! My name is Kristian Worthy, and
-              I'm enrolled in UNC Charlotte's Full Stack Web Development
-              Bootcamp to become a Full-Stack web developer. This portfolio
-              showcases the projects I've worked on and assignments that I want
-              to show off! Have a look around, and if you like what you see, use
-              one of the links down below to contact me!
-            </p>
-            <p style={{ color: "white" }}>- Kristian</p>
-          </Col>
-        </Row>
-      </Container>
+    <div className={classes.root}>
+    <Grid container spacing={3}
+    justify="center">
+      <Grid item xs={12}>
+      <Nav />
+      </Grid>
+      <Grid item xs={12}>
+       
+      <h1 className="about">About Kristian</h1>
+      </Grid>
+      <Grid item xs={8} >
+        <p>Kristian Worthy is a full-stack web developer with a primary focus on Front-End development. She graduated from UNC Charlotte's Coding: Full-Stack Web Development program and graduated from UNC Wilmington with a Bachelor of Arts degree in Communication Studies.</p>
+      </Grid>
+      <Grid item xs={8} >
+        <p>If you like what you see, please contact me through my email or my LinkedIn! </p>
+        <p>OR, please visit my GitHub to view my repositories ☺ </p>
+      </Grid>
+      {/* <Grid item xs={6} sm={3}>
+        <Paper className={classes.paper}>xs=6 sm=3</Paper>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Paper className={classes.paper}>xs=6 sm=3</Paper>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Paper className={classes.paper}>xs=6 sm=3</Paper>
+      </Grid>
+      <Grid item xs={6} sm={3}>
+        <Paper className={classes.paper}>xs=6 sm=3</Paper>
+      </Grid> */}
+    </Grid>
+  </div>
+);
+  
+    
+    
 
-      <Container
-        fluid
-        className="container"
-        style={{ display: "flex", justifyContent: "center" }}
-      >
-        <div className="justify-content-center">
-          <Row style={{ border: "1px solid white" }}>
-            <Col md={12}>
-              <a href="https://www.linkedin.com/in/ksworthy/">
-                <i
-                  class="fab fa-linkedin-in fa-2x"
-                  style={{ color: "white" }}
-                ></i>
-              </a>
-              <a href="https://github.com/oksimone">
-                <i class="fab fa-github fa-2x" style={{ color: "white" }}></i>
-              </a>
-              <a href={ksw_webdevresume} target="_blank">
-                <i class="far fa-file-pdf fa-2x" style={{ color: "white" }}></i>
-              </a>
-
-              <a href="mailto:ksworthy@windstream.net">
-                <i class="fas fa-at fa-2x" style={{ color: "white" }}></i>
-              </a>
-            </Col>
-          </Row>
-        </div>
-      </Container>
-    </>
-  );
 }
 
 export default About;

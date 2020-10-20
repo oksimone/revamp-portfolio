@@ -1,17 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:ital,wght@0,200;1,100;1,200&family=Montserrat:wght@700&family=Oswald:wght@600&display=swap");
 
-html, body{
-    background:url("https://images.pexels.com/photos/4100130/pexels-photo-4100130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* height:100%;
-    width:100%; */
-    /* overflow: hidden; */
-    margin:0;
-    position:fixed;
-    
+body{
+  background-color: #FFFAF9;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  text-align: center;
+  margin: 0;
+
+  justify-content: center;
+  align-items: baseline;
+}
+
+/* .img {
+  background: url(../Home/KRIS.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  max-width: 100%;
+  height:auto;
+  display: block;
+  opacity: 0.5;
+  position: fixed;
+  margin-bottom: 20px;
+} */
+
+.header {
+  margin-top: -20px;
+  justify-content: center !important;
+}
+/* 
+.me {
+  color: black;
+  font-family: "Caveat", cursive;
+  font-family: "Montserrat", sans-serif;
+  initial-letter: 21px;
+  animation: right_to_left 2s ease;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 0;
+  z-index: 1;
+  font-size: 25px;
+  display: block; 
+  display: inline; 
+  white-space: nowrap; 
+  overflow: hidden; 
+} */
+
+/* @keyframes right_to_left {
+  from {
+    margin-left: 100%;
   }
-  
-  
+  to {
+    margin-left: 0;
+  }
+} */

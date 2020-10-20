@@ -1,10 +1,21 @@
-@media only screen and (max-width: 768px) {
-    .container-fluid
-    {
-      text-align: center;
-    }
-  }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans&display=swap');
+
 body{
-    /* width:auto; */
-    height:auto;
+  background-color: #FFFAF9;
+}
+
+.about {
+  font-size: 25px;
+  color: black !important;
+  font-family: 'Antic Didone', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-weight: 100;
+}
+
+p{
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
 }
