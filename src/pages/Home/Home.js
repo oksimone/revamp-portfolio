@@ -7,14 +7,15 @@ import Nav from "../../components/Nav/Nav";
 
 function Home() {
   return (
-    <Grid container fixed className="container">
+    
+    <Grid container fluid className="container">
       <Nav />
      
       <Header className="header" />
 
-      <img
+      <img className = "img"
         src={KRIS}
-        style={{ height: "auto", maxWidth: "100%", opacity: "0.7",  overflowX:"hidden" }}
+        
         alt="portrait of kristian"
       />
     </Grid>

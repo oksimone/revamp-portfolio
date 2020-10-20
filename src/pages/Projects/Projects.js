@@ -7,6 +7,7 @@ import project3 from "../Projects/project3.gif";
 import PandemicPlaylist from "../Projects/PandemicPlaylist.gif";
 import cocktellme from "../Projects/cocktellme.png";
 import goodburger from "../Projects/goodburger.png";
+import '../Projects/Projects.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
