@@ -23,7 +23,7 @@ class Nav extends Component {
         <Grid container fixed justify="center" alignItems="center">
           <img src={logo} style={{ height: "9%", width: "9%" }} />
           <Breadcrumbs aria-label="breadcrumb">
-            <Link className="link" href="/home" onClick={this.handleClick}>
+            <Link className="link" href="/" onClick={this.handleClick}>
               oksimone
             </Link>
             <Link className="link" href="/about" onClick={this.handleClick}>
